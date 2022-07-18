@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Cafes;
 use Illuminate\Http\Request;
 
 class ProductController extends Controller
@@ -11,13 +12,19 @@ class ProductController extends Controller
     {
         return view('welcome');
     }
+
     public function menu()
     {
         return view('menu');
     }
+
     public function cafe()
     {
-        return view('cafe');
+        $cafes = Cafes::create([
+            'name' => 'Brasil',
+            'location' => 'Portugal',
+            'description' => 'strong coffe'
+        ]);
     }
     public function delivery()
     {
@@ -26,5 +33,17 @@ class ProductController extends Controller
     public function responsabilidade()
     {
         return view('responsabilidade');
+    }
+
+    public function admin()
+    {
+
+        $cafes = Cafes::create([
+            'name' => 'Brasil',
+            'location' => 'Portugal',
+            'description' => 'strong coffe'
+        ]);
+
+        dd($cafes);
     }
 }
