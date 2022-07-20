@@ -10,7 +10,8 @@ class Cafes extends Model
     protected $fillable = [
         'name',
         'location',
-        'description'
+        'description',
+        'img'
     ];
 
     use HasFactory;

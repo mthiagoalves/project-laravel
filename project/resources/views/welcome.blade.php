@@ -22,9 +22,6 @@
         <img src="/img/banner-home.png" alt="">
     </div>
 
-
-
-
 </div>
 
 

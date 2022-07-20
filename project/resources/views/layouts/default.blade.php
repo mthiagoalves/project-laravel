@@ -23,7 +23,7 @@
                             <a href="/menu" class="nav-link">MENU</a>
                         </li>
                         <li class="nav-item">
-                            <a href="/cafe" class="nav-link">CAFÉ</a>
+                            <a href="/cafe" class="nav-link">CAFÉS</a>
                         </li>
                         <li class="nav-item">
                             <a href="/delivery" class="nav-link">DELIVERY</a>
